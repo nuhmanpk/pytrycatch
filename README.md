@@ -101,10 +101,10 @@ print(result)  # Output: "An error occurred"
 
 
 ## Contributing
-[Fork](https://github.com/nuhmanpk/pytrycatch/fork) the repository.
-Create a new branch (git checkout -b feature-branch).
-Commit your changes (git commit -am 'Add new feature').
-Push to the branch (git push origin feature-branch).
-Open a pull request.
+* [Fork](https://github.com/nuhmanpk/pytrycatch/fork) the repository.
+* Create a new branch (git checkout -b feature-branch).
+* Commit your changes (git commit -am 'Add new feature').
+* Push to the branch (git push origin feature-branch).
+* Open a pull request.
 
 Made with ❤️ by [Nuhman PK](https://github.com/nuhmanpk)
