@@ -5,8 +5,6 @@ file = pathlib.Path(__file__).parent
 
 README = (file / "README.md").read_text()
 
-requirements = (file / "requirements.txt").read_text().splitlines()
-
 setup(
     name="pytrycatch",
     version="0.0.1",
@@ -21,8 +19,11 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    install_requires=requirements,
-    packages=setuptools.find_packages(include=['pytrycatch']),
+    install_requires=[
+        'pytest>=7.0',
+        'flake8>=6.0',
+    ],
+    packages=find_packages(include=['pytrycatch']),
     python_requires=">=3.9",
     project_urls={
         'Documentation': 'https://github.com/nuhmanpk/pytrycatch/blob/main/README.md',
