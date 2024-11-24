@@ -22,7 +22,7 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    install_requires=requirements,
+    # install_requires=requirements,
     python_requires=">=3.9",
     project_urls={
         'Documentation': 'https://github.com/nuhmanpk/pytrycatch/blob/main/README.md',
