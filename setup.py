@@ -7,7 +7,7 @@ README = (file / "README.md").read_text()
 
 setup(
     name="pytrycatch",
-    version="0.0.2",
+    version="0.0.3",
     description="Simplified exception handling for Python",
     author="Nuhman PK",
     author_email="nuhmanpk7@gmail.com",
