@@ -5,7 +5,7 @@ file = pathlib.Path(__file__).parent
 
 README = (file / "README.md").read_text()
 
-requirements = (file / "requirements.txt").read_text().splitlines()
+# requirements = (file / "requirements.txt").read_text().splitlines()
 
 setup(
     name="pytrycatch",
@@ -16,7 +16,7 @@ setup(
     long_description = README,
     long_description_content_type = "text/markdown",
     url="https://github.com/nuhmanpk/pytrycatch",
-    packages=find_packages(),
+    # packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
